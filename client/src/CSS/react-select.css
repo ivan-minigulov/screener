@@ -1,0 +1,92 @@
+.react-select {
+    width: 300px;
+    font-size: small;
+    margin: 0 40px 5px 5px;
+    display: inline-block;
+    text-align: left;
+}
+#react-select-sort {
+  width: 200px;
+  margin: 0 5px 5px 5px;
+}
+.react-select-label {
+  font-size: 12px;
+  margin: 2px;
+}
+
+.react-select__control {
+  font-style: italic;
+  min-height: auto !important;
+}
+
+.react-select__multi-value {
+  background-color: transparent !important;
+  margin: 0 !important;
+}
+
+.react-select__multi-value__label {
+  padding: 0px 1px 0px 5px !important;
+}
+
+.react-select__multi-value__remove {
+  padding: 0 !important;
+  color: rgba(55, 55, 55, 0.5) !important;
+}
+.react-select__multi-value__remove:hover {
+  background-color: transparent !important;
+  color: black !important;
+
+}
+
+.react-select__value-container {
+  padding: 0 !important;
+  -webkit-flex-wrap: none !important;
+  flex-wrap: nowrap !important;
+}
+
+.react-select__input {
+  overflow: hidden !important;
+}
+
+.react-select__input-container {
+  padding: 0 !important;
+  margin: 0 !important;
+  cursor: text;
+}
+
+.react-select__indicator {
+  padding: 0 !important;
+  cursor: pointer;
+  margin: 1px 0 1px 0 !important;
+  width: 17px;
+}
+.react-select__indicator-separator {
+  display: none;
+  margin: 0 !important;
+}
+
+.react-select__menu {
+  background-color: white !important;
+  margin-top: 4px !important;
+  
+}
+
+.react-select__menu-list {
+  padding: 0 !important;
+  z-index: 10;
+  
+}
+
+.react-select__option {
+  font-style: italic;
+  color: rgb(30, 30, 30) !important;
+  padding: 2px 5px 2px 5px !important;
+  cursor: pointer !important;
+}
+
+.react-select__option--is-focused {
+    color: black !important;
+}
+.react-select__option--is-selected {
+  background-color: rgba(153, 197, 251, 0.812) !important;
+}

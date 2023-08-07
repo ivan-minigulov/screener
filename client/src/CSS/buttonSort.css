@@ -1,0 +1,39 @@
+.buttonSort {
+    display: inline-block;
+}
+.activeLabel {
+    width: max-content;
+    background-color: transparent;
+    color: blueviolet;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2px;
+    margin: 2px;
+    border: none;
+}
+.passiveLabel {
+    width: max-content;
+    background-color: transparent;
+    color: rgb(39, 42, 51);
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2px;
+    margin: 2px;
+    border: none;
+}
+.activeLabel:hover {
+    background-color: white;
+    color: blueviolet;
+}
+.passiveLabel:hover {
+    background-color: white;
+    color: rgb(39, 42, 51);
+}
+.btn:first-child:active {
+    background-color: white;
+    color: rgb(39, 42, 51);
+}
+:not(.btn-check)+.btn:active {
+    background-color: white;
+    color: rgb(39, 42, 51);
+}

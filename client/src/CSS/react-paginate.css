@@ -1,0 +1,6 @@
+.page-link:focus {
+    box-shadow: none;
+}
+.active>.page-link {
+    z-index: 0;
+}

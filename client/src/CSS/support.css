@@ -1,0 +1,20 @@
+.p-support {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin: 10px auto 10px auto;
+}
+.div-support {
+    margin: 10px auto 10px auto;
+    width: max-content;
+    padding: 5px 20px 5px 20px;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    background-color: #0d004ebd;
+}
+.a-support {
+    color: white;
+}
+.a-support:hover, .a-support:focus {
+    color: rgba(255, 255, 255, 0.712);
+}

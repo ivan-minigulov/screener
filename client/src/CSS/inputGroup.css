@@ -1,0 +1,101 @@
+.inputGroup {
+}
+.input-group, .input-group-sm {
+    width: 380px;
+    margin: 2px 0 2px 0;
+    padding-right: 30px;
+}
+.input-group-text {
+    background-color: transparent;
+    border: none;
+    text-align: right;
+    display: inline;
+
+}
+.form-control {
+    border-radius: 0 !important;
+    border: none;
+    border-bottom: 1px solid rgb(137, 93, 156);
+    width: 40px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.form-control:focus {
+
+}
+#basic-addon1 {
+    width: 200px;  
+    font-size: 12px;
+}
+#basic-addon2 {
+    width: 30px;
+    font-size: 12px;
+}
+#input-form-control1, #input-form-control2 {
+    font-size: 12px;
+}
+.div-options-2, .div-options-3, .div-options-4 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    width: 400px;
+}
+.div-options-1 {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+}
+.div-options-5 {
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.div-options-6 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 500px;
+    vertical-align: middle;
+}
+.div-options-7 {
+    display: inline-block;
+    /* margin-left: auto; */
+    margin-right: 120px;
+    text-align: center;
+    width: max-content;
+    vertical-align: middle;
+}
+.div-options-8 {
+    display: inline-block;
+    margin-left: 120px;
+    /* margin-right: auto; */
+    text-align: center;
+    width: max-content;
+    vertical-align: middle;
+}
+.form-auth {
+    width: 100%;
+    margin-top: 3px;
+    display: inline-block;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}
+.form-password {
+    width: auto;
+    position: relative;
+    /* display: flex; */
+}
+.button-show-hide, .button-show-hide:hover, .button-show-hide:focus, .button-show-hide:active {
+    position: absolute;
+    display: inline-block;
+    padding: 0px;
+    top: 15%;
+    left: 93%;
+    background-color: transparent;
+    border: 0px;
+
+}

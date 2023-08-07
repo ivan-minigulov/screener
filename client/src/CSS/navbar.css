@@ -1,0 +1,15 @@
+.button-navbar {
+    border: none;
+}
+
+.button-navbar:focus {
+    border: none;
+    background-color: black;
+}
+
+.navbar-app {
+}
+.navbar-macro {
+    background-color: rgb(51, 51, 68);
+    height: 45px;
+}

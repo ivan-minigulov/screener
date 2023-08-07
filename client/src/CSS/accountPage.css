@@ -1,0 +1,130 @@
+.account-page {
+    
+    margin-top: 20px;
+    /* width: 1000px; */
+    height: max-content;
+}
+.user-column {
+    display: inline-block;
+    margin: 0px 10px 20px 35px;
+    width: max-content;
+    max-width: 350px;
+}
+.user-info {
+    vertical-align: top;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    background-color: #2e1544cf;
+    font-size: 14px;
+}
+.user-p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.user-btn-logout {
+    text-align: center;
+    margin: 15px auto 15px auto;
+}
+.survey-form {
+    display: inline-block;
+    max-width: 850px;
+    width: max-content;
+    margin: 0px 20px 20px 10px;
+    vertical-align: top;
+}
+.survey-block {
+    margin-bottom: 15px;
+    padding: 15px 20px 10px 20px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 10px;
+    background-color: #f7effecf;
+    font-size: 13px;
+}
+.survey-block-title {
+    margin-bottom: 15px;
+    padding: 15px 20px 10px 20px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 10px;
+    background-color: #000000d3;
+    font-size: 13px;
+    color: white;
+}
+.survey-block input {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.survey-block p {
+    font-size: 14px;
+}
+.survey-block h6 {
+    font-size: 14px;
+    text-align: center;
+}
+.survey-block label {
+    font-size: 13px;
+}
+.text-error {
+    color: red;
+    font-size: 12px;
+    margin: 5px auto 10px auto;
+}
+.button-submit {
+    text-align: center;
+}
+.text-justify {
+    text-align: justify;
+}
+.block-buy {
+    display: flex;
+    justify-content: space-between;
+}
+.block-buy-subs {
+    display: inline-block;
+    max-width: 200px;
+    margin-bottom: 15px;
+    padding: 15px 15px 10px 15px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #000000cf;
+}
+.block-buy-subs p {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 7px;
+}
+.block-buy-subs button, .block-buy-subs Button {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #521b83cf;
+    margin: 10px auto 10px auto;
+    border-radius: 15px;
+    min-height: 50px;
+    background-color: white;
+    border: 0px;
+}
+.block-buy-subs button:hover {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin: 10px auto 10px auto;
+    border-radius: 15px;
+    min-height: 50px;
+    background-color: #7829be;
+    border: 0px;
+}
+
+.ul p, .ul li {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.a-account {
+    color: black;
+}
+.a-account:hover, .a-account:focus {
+    color: rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,33 @@
+.button-style {
+    width: 200px;
+    background: rgb(48, 48, 55);
+    border-radius: 30px;
+    border-color: transparent;
+    vertical-align: middle;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(255, 255, 255, 0.8);
+    padding: auto;
+}
+.button-style:hover, .button-style:focus-visible, .button-style:focus {
+    background: rgb(48, 48, 55);
+    color: rgba(255, 255, 255, 0.8);
+    border-color: transparent;
+}
+#button-clear:active {
+    background: rgb(48, 48, 55);
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+}
+.link-button, .link-button:hover, .link-button:focus, .link-button:focus-visible, .link-button:active {
+    background: transparent;
+    border: none;
+    color: blue;
+    text-decoration: underline;
+}
+.link-button-violet, .link-button-violet:hover, .link-button-violet:focus, .link-button-violet:focus-visible, .link-button-violet:active {
+    background: transparent;
+    border: none;
+    color: rgb(170, 43, 192);
+    text-decoration: underline;
+}
